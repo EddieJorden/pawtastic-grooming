@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('bg-image.jpg');
+  background-size: cover;
+	background-color: aliceblue;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 42px;
+}
+
+nav li {
+	font-size: large;
+}
+
+header {
+  background-color: #154be0;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.header-image {
+	display: flex;
+	justify-content: center;
+}
+
+.header-image img{
+	height: 650px;
+}
+
+#mission {
+	margin-bottom: 42px;
+}
+
+#mission p {
+	font-size: larger;
+}
+
+.pamela-image img {
+	width: 150px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.pamela-profile {
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pamela-img {
+  margin-right: 1em; /* Add some margin to the right of the image */
+  width: 150px; /* Change the width of the image */
+  border-radius: 50%; /* Add some rounded corners to the image */
+}
+
+.pamela-text {
+  overflow: hidden; /* Clear the float */
+	width: 81%;
+	font-size: large;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.reviewer-img {
+	float: left; /* Position the image to the left */
+	margin-right: 1em; /* Add some margin to the right of the image */
+	width: 80px; /* Change the width of the image */
+	border-radius: 50%; /* Add some rounded corners to the image */
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+}
+
+.reviews {
+	display: flex;
+	justify-content: center;
+}
+
+.review {
+	margin: 42px
+}
+
+.review-text {
+	overflow: hidden; /* Clear the float */
+}
+
+nav ul {
+  list-style: none;
+  background-color: #154be0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.cta-button {
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	margin: 42px
+}
+
+button {
+	background: linear-gradient(to right, orange, #ffa500); /* Add gradient background */
+	color: white; /* Change the text color to white */
+	padding: 0.8em 1.5em; /* Add some padding to the button */
+	border-radius: 20px; /* Add some rounded corners */
+	border: none; /* Remove the default border */
+	font-size: 1.2em; /* Increase the font size */
+	font-family: 'Open Sans', sans-serif; /* Change the font */
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+	cursor: pointer; /* Change the cursor on hover */
+	transition: all 0.2s ease-in-out; /* Add a transition for hover effect */
+	text-transform: uppercase; /* Change the text to uppercase */
+	font-weight: 600; /* Add a bold font-weight */
+	letter-spacing: 1px; /* Add some space between letters */
+}
+
+/* Add hover effect */
+.orange-button:hover {
+	background: linear-gradient(to right, #ffa500, orange); /* Change the gradient on hover */
+	transform: translateY(-2px); /* Move the button down on hover */
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4); /* Increase the shadow on hover */
+}
+
+.review img {
+	float: left; /* Position the image to the left */
+	margin-right: 1em; /* Add some margin to the right of the image */
+	width: 80px; /* Change the width of the image */
+	border-radius: 50%; /* Add some rounded corners to the image */
+}
+
+.events-image {
+	display: flex;
+  justify-content: center;
+}
+
+#events p{
+	width: 81%;
+	font-size: large;
+}
+
+#events h2{
+	display: flex;
+	justify-content: center;
+}
+
+.events-body {
+	display: flex;
+	justify-content: center;	
+}
+
+#events {
+	margin-bottom: 42px
+}
+
+footer {
+  background-color: #154be0;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
